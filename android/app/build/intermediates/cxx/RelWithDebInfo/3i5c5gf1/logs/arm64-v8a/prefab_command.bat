@@ -1,0 +1,24 @@
+@echo off
+"C:\\Program Files\\Java\\jdk-17.0.8\\bin\\java" ^
+  --class-path ^
+  "C:\\Users\\Administrator\\.gradle\\caches\\modules-2\\files-2.1\\com.google.prefab\\cli\\2.1.0\\aa32fec809c44fa531f01dcfb739b5b3304d3050\\cli-2.1.0-all.jar" ^
+  com.google.prefab.cli.AppKt ^
+  --build-system ^
+  cmake ^
+  --platform ^
+  android ^
+  --abi ^
+  arm64-v8a ^
+  --os-version ^
+  24 ^
+  --stl ^
+  c++_shared ^
+  --ndk-version ^
+  27 ^
+  --output ^
+  "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\agp-prefab-staging12204565763725932844\\staged-cli-output" ^
+  "C:\\Users\\Administrator\\.gradle\\caches\\8.14.1\\transforms\\1c9225614e4d0ab975f35005d007a9db\\transformed\\react-android-0.80.0-release\\prefab" ^
+  "D:\\HostelOwner\\android\\app\\build\\intermediates\\cxx\\refs\\react-native-reanimated\\1i564c14" ^
+  "D:\\HostelOwner\\android\\app\\build\\intermediates\\cxx\\refs\\react-native-worklets\\5039652l" ^
+  "C:\\Users\\Administrator\\.gradle\\caches\\8.14.1\\transforms\\e3847898c9ad159c30703260241a1547\\transformed\\hermes-android-0.80.0-release\\prefab" ^
+  "C:\\Users\\Administrator\\.gradle\\caches\\8.14.1\\transforms\\3ba4db1ae352eb90610ca685a00c889a\\transformed\\fbjni-0.7.0\\prefab"
